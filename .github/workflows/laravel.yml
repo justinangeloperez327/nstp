@@ -33,7 +33,7 @@ jobs:
         coverage: none
 
     # use the latest version of the composer
-    - uses: actions/checkout@v4
+    - uses: actions/checkout@v6
 
     # copy the .env.example file to .env
     - name: Copy .env
